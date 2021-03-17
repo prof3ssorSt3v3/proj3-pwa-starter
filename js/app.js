@@ -19,6 +19,7 @@ const APP = {
       //listen for message events
     }
     //open the database
+    APP.openDB();
 
     //run the pageLoaded function
     APP.pageLoaded();
